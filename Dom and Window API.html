@@ -1,0 +1,68 @@
+<div class = "container">
+    <p id="aboutus">About us txt</p>
+    <p>Album txt</p>
+</div>
+
+<script>
+    const aboutUs = document.querySelector(".container p6");
+    const txts = document.querySelectorAll(".container p");
+</script>
+
+<script>
+    const aboutUs1 = document.getElementById("aboutus");
+    const containers = document.getElementsByClassName("container ");
+    const paragraphs = document.getElementsByTagName("p");
+    console.log(paragraphs);
+</script>
+
+
+<script>
+    const cont = document.querySelector(".container");
+    const abtUs = document.getElementById("aboutus");
+
+    //attibutes
+    console.log(abtUs.getAttribute("id"));//abtUs
+    abtUs.setAttribute("id","newId");//change attribute
+
+    //natesavebi
+    console.log(cont.children);//both paragraph in array
+    console.log(cont.parentElement);//parent element
+</script>
+
+<script>
+    const cont1 = document.querySelector(".container");
+    
+    console.log(cont1.classList);//class list
+    cont1.classList.add("container--active");//add new class
+    cont1.classList.remove("container--activr");//remove class from element
+    cont1.classList.toggle("container--active");//tu es class gaachnia html elements shlis tuar gaachnia amatebs
+    cont1.className = "container class1 class2 class3";//pirdapir miniweba
+    
+</script>
+
+<div class = "cont">
+    <p id = "abtUss">About Us Text</p>
+    <p>Portf Text</p>
+</div>
+
+<script>
+    const contai = document.querySelector('.container');
+    contai.innerHTML = "<span>zdbrat</span>";
+    console.log(contai.innerHTML);
+    contai.remove();//washla
+</script>
+
+
+<div class = "cont">
+    <p id = "abtUss">About Us Text</p>
+    <p>Portf Text</p>
+</div>
+
+<script>
+    const conta11 = document.querySelector('.cont');
+    
+    conta11.style.margin = "10px";
+    conta11.style.paddingBottom = "50px";
+    conta11.style.backgroundColor = "blue";
+</script>
+

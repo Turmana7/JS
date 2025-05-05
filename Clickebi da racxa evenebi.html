@@ -1,0 +1,96 @@
+<div id = container onclick ="doSomething()">
+    click me bro
+</div>
+
+<script>
+    function doSomething(){
+    console.log("yochag!!!!!!!!!!!");
+    }
+</script>
+
+<div id="cont" style = "overflow:scroll; height:100px;" onscroll = "doSomething1">
+    <div style = "height:900vh"></div>
+</div>
+
+<script>
+    function doSomething1(){
+        console.log("sqrolic gcodnia broski");
+    }
+</script>
+
+<div id="cont1" onmouseover = "doSomething2()">
+    across me
+</div>
+
+<script>
+    function doSomething2(){
+        console.log("u are smart bro DD");
+    }
+</script>
+
+<body ondload="doSomething3()">
+    load me
+</body>
+
+<script>
+    function doSomething3(){
+        console.log("Loading Finished,Congratulation");
+    }
+</script>
+
+<div id="cnt">
+    clickkk
+</div>
+
+<button onclick="cancelListener()">Cancel</button>
+
+
+<script>
+    function doSomething11(){
+        console.log("you clocked succesfully");
+    }
+    function cancelListener(){
+        container.removeEventListener("click",doSomething11);
+    }
+    const container = document.querySelector("#cnt");
+    container.addEventListener("click",doSomething11);
+</script>
+
+<input type="text" id="name"/>
+<div class="error"></div>
+
+<script>
+    const name = document.getElementById("name");
+    const error = document.querySelector(".error");
+
+    function onName(e){
+        if(e.target.value=="saba"){
+            error.style.color = "red";
+            error.innerHTML = "username is used";
+        }
+    }
+   
+    name.addEventListener("input",onName);
+</script>
+
+<script>
+    function f(){
+        console.log("time is out");
+    }
+    setTimeout(f,4000);
+    setInterval(f,10000);
+</script>
+
+<script>
+    alert("male gadi aqidan");
+</script>
+
+<script>
+    const t = confirm("Are you leaving?");
+    console.log(t);
+</script>
+
+<script>
+    const a = prompt("Enter your e-mail");
+    console.log(a);
+</script>
