@@ -22,17 +22,17 @@ for(let pr = 0;pr<=10;pr++){
 
 let result = [1,2,3,4,5];
 
-for(let i = 0;i < result.length;i++){
+for(let i = 0;i < result.length;i++){//es arrayze gadairbens
     console.log(result[i]);
 }
 
-for(let i = result.length - 1;i >= 0;i--){
+for(let i = result.length - 1;i >= 0;i--){//es arrayze gadairbens ukღma 
     console.log(result[i]);
 }
 
 let welcome = "gamarjoba";
 
-for(let i = 0;i < welcome.length;i++){
+for(let i = 0;i < welcome.length;i++){//shegvidzlia stringebzec vimoqmedod msgavsad
     console.log(welcome[i]);
 }
 
@@ -62,6 +62,10 @@ for(let i = 0;i < testResult.length;i++){
     if(testResult[i] >= 50){
         goodResult[goodResult.length] = testResult[i];
     }
+    if(testResult[i] < 50){
+        continue;
+    }
+    console.log(`Good Job! Your score is ${testResult[i]}`);
 }
 console.log(goodResult);
 
@@ -70,7 +74,7 @@ let ts = [10,10,20,30,40,50,50];
 for(let i = 0;i < ts.length;i++){
     for(let k = i+1;k < ts.length;k++){
         if(ts[i] == ts[k]){
-            console.log(`ჩანაწერი ${ts[i]}დუბლირებულია`);
+            console.log(`${ts[i]} is duplicated`);
         }
     }
 }
