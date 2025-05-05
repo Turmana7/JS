@@ -74,5 +74,3 @@ for(let i = 0;i < ts.length;i++){
         }
     }
 }
-
-console.log(ts);
