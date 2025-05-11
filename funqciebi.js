@@ -1,23 +1,22 @@
 function welcome(userFirstName){
-    console.log(`zrarova ${userFirstName} ravaxar brat`);
+    console.log(`zdarova ${userFirstName} ravaxar brat`);
 }
-
-function login(){
-console.log("email:  password:")
-}
-
-function gift(userFirstName,prizi="araferi"){//parametri
-    console.log(`gamarjoba ${userFirstName},shen miige ${prizi}`);
-}
-login();
-welcome("brat");
-gift("saba","iphone 16 ProMax");//argumenti
+welcome("alex");
 
 function misalmeba(userFirstName){
 return `zdarova ${userFirstName} ravaxar too`;
 }
-
 console.log(misalmeba("nick"));
+
+function login(){
+console.log("email:  password:")
+}
+login();
+
+function gift(userFirstName,prizi="araferi"){//parametri
+    console.log(`gamarjoba ${userFirstName},shen miige ${prizi}`);
+}
+gift("saba","iphone 16 ProMax");//argumenti
 
 function calcAge(birthYear){
  return 2025 - birthYear;
