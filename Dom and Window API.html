@@ -1,17 +1,19 @@
+<script src = "asdqw.js"></script>//ase kavshirdeba html js-tan 
+
 <div class = "container">
     <p id="aboutus">About us txt</p>
     <p>Album txt</p>
 </div>
 
 <script>
-    const aboutUs = document.querySelector(".container p");//About us txt
-    const txts = document.querySelectorAll(".container p");//[About us txt, Album txt]
+    const aboutUs = document.querySelector(".container p");//About us txt (gamoitana pirvelive shemxvedri elementi)
+    const txts = document.querySelectorAll(".container p");//About us txt, Album txt]
 </script>
 
 <script>
-    const aboutUs1 = document.getElementById("aboutus");
-    const containers = document.getElementsByClassName("container ");
-    const paragraphs = document.getElementsByTagName("p");
+    const aboutUs1 = document.getElementById("aboutus");//pirveli p
+    const containers = document.getElementsByClassName("container ");//1container div
+    const paragraphs = document.getElementsByTagName("p");//paragrafebi masivshi
     console.log(paragraphs);
 </script>
 
@@ -21,11 +23,11 @@
     const abtUs = document.getElementById("aboutus");
 
     //attibutes
-    console.log(abtUs.getAttribute("id"));//abtUs
+    console.log(abtUs.getAttribute("id"));//abtUs (atributis gadacema shegvidzlia argumentad)
     abtUs.setAttribute("id","newId");//change attribute
 
     //natesavebi
-    console.log(cont.children);//both paragraph in array
+    console.log(cont.children);//conteineris shvilebs gamoitans
     console.log(cont.parentElement);//parent element
 </script>
 
@@ -35,7 +37,7 @@
     console.log(cont1.classList);//class list
     cont1.classList.add("container--active");//add new class
     cont1.classList.remove("container--activr");//remove class from element
-    cont1.classList.toggle("container--active");//tu es class gaachnia html elements shlis tuar gaachnia amatebs
+    cont1.classList.toggle("container--active");//tu es class gaachnia html elements shlis, tuar gaachnia amatebs
     cont1.className = "container class1 class2 class3";//pirdapir miniweba
     
 </script>
@@ -47,9 +49,9 @@
 
 <script>
     const contai = document.querySelector('.container');
-    contai.innerHTML = "<span>zdbrat</span>";
+    contai.innerHTML = "<span>zdbrat</span>";//shecvlis div-is shigtavss
     console.log(contai.innerHTML);
-    contai.remove();//washla
+    contai.remove();//washla DOM-idan
 </script>
 
 
@@ -62,7 +64,6 @@
     const conta11 = document.querySelector('.cont');
     
     conta11.style.margin = "10px";
-    conta11.style.paddingBottom = "50px";
-    conta11.style.backgroundColor = "blue";
+    conta11.style.paddingBottom = "50px";//padding-bottom == paddingBottom    conta11.style.backgroundColor = "blue";
 </script>
 
