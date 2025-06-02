@@ -1,42 +1,42 @@
 <div id = container onclick ="doSomething()">
     click me bro
 </div>
-
 <script>
     function doSomething(){
     console.log("yochag!!!!!!!!!!!");
     }
 </script>
 
+
 <div id="cont" style = "overflow:scroll; height:100px;" onscroll = "doSomething1">
     <div style = "height:900vh"></div>
 </div>
-
 <script>
     function doSomething1(){
         console.log("sqrolic gcodnia broski");
     }
 </script>
 
+
 <div id="cont1" onmouseover = "doSomething2()">
        across me
 </div>
-
 <script>
     function doSomething2(){
         console.log("u are smart bro DD");
     }
 </script>
 
+
 <body ondload="doSomething3()">
     load me
 </body>
-
 <script>
     function doSomething3(){
         console.log("Loading Finished,Congratulation");
     }
 </script>
+
 
 <div id="cnt">
     clickkk
@@ -46,8 +46,8 @@
 
 
 <script>
-    function doSomething11(){
-        console.log("you clocked succesfully");
+    function doSomething11(event){
+        console.log("you clicked succesfully", event);
     }
     function cancelListener(){
         container.removeEventListener("click",doSomething11);
