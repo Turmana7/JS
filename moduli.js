@@ -1,0 +1,1 @@
+import isPrime from "./primeNumbers";//es funqcia gadmoitana primeNumbers failidan
