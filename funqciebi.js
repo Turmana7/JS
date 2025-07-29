@@ -37,6 +37,4 @@ const gift1 = (userFirstName,prizi) =>{//1parametrze arunda frchxilebi
 return `gamarjoba ${userFirstName},shen miige ${prizi}`;
 }
 
-const all = userFirstName =>`gamarjoba ${userFirstName}`;//TU RETURNS WER
-
-    
+const all = userFirstName =>`gamarjoba ${userFirstName}`;//TU RETURNS WER 
