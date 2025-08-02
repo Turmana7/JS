@@ -1,0 +1,19 @@
+{
+  "name": "npm.ge",
+  "version": "1.0.0",
+  "description": "araferi iseti",
+  "main": "npm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Turmana7/JS.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Turmana7/JS/issues"
+  },
+  "homepage": "https://github.com/Turmana7/JS#readme"
+}
