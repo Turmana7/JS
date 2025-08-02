@@ -2,6 +2,7 @@
   "name": "npm.ge",
   "version": "1.0.0",
   "description": "araferi iseti",
+  "type": "module",
   "main": "npm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Turmana7/JS/issues"
   },
-  "homepage": "https://github.com/Turmana7/JS#readme"
+  "homepage": "https://github.com/Turmana7/JS#readme",
+  "dependencies": {
+    "is-odd": "^3.0.1"
+  }
 }
