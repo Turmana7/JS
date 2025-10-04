@@ -23,3 +23,4 @@ const array4 = [1,2,3,4,5,6,7,8,9,10];
 
 const jami = array4.reduce((sum,item) => sum+item);
 console.log(jami);
+<p>aq itesteba branchis switch</p>
