@@ -55,7 +55,7 @@ const student0 = {
     lastName: "Turmanidze",
     scores: [9,8,10]
 };
-const student0AsString = JSON.stringify(student0);//JSON romar gamoviyenit shegvidzlia dgavutolot "structuredClone(student0)" romelic igivea rac 58-59 xazebi
+const student0AsString = JSON.stringify(student0);//JSON romar gamoviyenit shegvidzlia gavutolot "structuredClone(student0)" romelic igivea rac 58-59 xazebi
 const newStudent0Object = JSON.parse(student0AsString);//axali obieqti aawyo stringidan
 newStudent0Object.firstName = "Nikusha";
 newStudent0Object.scores.push(8);
