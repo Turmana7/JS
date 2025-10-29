@@ -12,7 +12,7 @@ console.log(x);
 type Sudent = {
     name: string;
     lastName: string;
-    age?: number;//am kitxvis nishnit gavaqret ereori romelic  gankutvnili iyo age cvladistvis imitom rom argvqonda miniwebuli araferi amit ki es error movarda da iqca option-ad
+    age?: number;//am kitxvis nishnit gavaqret error romelic  gankutvnili iyo age cvladistvis imitom rom argvqonda miniwebuli araferi amit ki es error movarda da iqca option-ad
 }
 
 const Saba: Student = {//type any tishavs typescripts
