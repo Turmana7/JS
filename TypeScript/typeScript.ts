@@ -9,7 +9,7 @@ function add(num1: number, num2: number){
 let x = add(Number('3'), +('4'));
 console.log(x);
 
-type Sudent = {
+type Student = {
     name: string;
     lastName: string;
     age?: number;//am kitxvis nishnit gavaqret error romelic  gankutvnili iyo age cvladistvis imitom rom argvqonda miniwebuli araferi amit ki es error movarda da iqca option-ad
